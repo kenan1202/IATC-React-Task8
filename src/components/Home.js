@@ -17,7 +17,7 @@ const Home = ({ data }) => {
       <Slider {...settings}>
         {data.map((item) => (
           <div>
-            <img src={item.image} />
+            <img src={item.image} alt = "Item Image" />
             <p>{item.name}</p>
             <h2>{item.current_price}</h2>
           </div>
