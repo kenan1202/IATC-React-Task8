@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CryptoCurrencies = ({ data }) => {
+const Currencies = ({ data }) => {
   const [search, setSearch] = useState("");
   return (
     <div className="crypto">
@@ -29,4 +29,4 @@ const CryptoCurrencies = ({ data }) => {
   );
 };
 
-export default CryptoCurrencies;
+export default Currencies;
