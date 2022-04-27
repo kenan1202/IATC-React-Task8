@@ -1,0 +1,10 @@
+.link {
+    border-bottom: 1px solid orange;
+    margin-right: 10px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+  

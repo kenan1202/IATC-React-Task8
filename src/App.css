@@ -1,0 +1,168 @@
+* {
+  color: #000;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://static.euronews.com/articles/stories/06/28/40/96/1440x810_cmsv2_e170ee60-076a-52d7-bc8a-3c5f23556772-6284096.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+
+
+.header {
+  background-color: #1c2638;
+  padding: 10px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+
+
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.trend {
+  width: 900px;
+  margin: 0 auto;
+}
+.header a {
+  color: white;
+}
+.logo a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.home {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100vw;
+  color: white;
+}
+
+.home img {
+  margin: 0 auto;
+}
+
+.home h1 {
+  margin-bottom: 40px;
+}
+.crypto {
+  width: 100vw;
+}
+
+.crypto h1 {
+  margin: 60px;
+}
+
+.crypto input {
+  height: 20px;
+  background: linear-gradient(to left, #e664ca, #545eca);
+  text-align: left;
+  outline: none;
+}
+
+
+.crypto input::placeholder {
+  color: #fff;
+}
+
+
+
+
+.crypto-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.crypto-item {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+}
+.search-bttn{
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 1s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 25px rgb(206, 206, 206);
+     border-radius: 12px;
+}
+
+  .search-bttn:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+
+.crypto-item img {
+  width: 40px;
+  height: 40px;
+}
+.App-link {
+  color: #61dafb;
+}
+.products-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .product {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+  }
+  .product img {
+  width: 40px;
+  height: 40px;
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
